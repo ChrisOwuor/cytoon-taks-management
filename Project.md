@@ -16,11 +16,6 @@ A full-stack task management system built with:
 
 ### 1. Clone or unzip the project
 
-```bash
-unzip task-manager-app.zip
-cd task-manager-app
-
-
 ## 🔐 Seeded Admin Credentials
 
 - **Email:** `admin@example.com`  
@@ -41,5 +36,4 @@ cd task-manager-app
 
 ## 🚀 Start All Services
 
-```bash
-docker-compose up --build
+
