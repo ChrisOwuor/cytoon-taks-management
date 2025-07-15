@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Admin Dashboard</h2>
+      <button id="logoutBtn">Logout</button>
+      <section id="usersSection">
+        <h3>Users</h3>
+        <button id="addUserBtn">Add User</button>
+        <div id="usersList"></div>
+      </section>
+      <section id="tasksSection">
+        <h3>Tasks</h3>
+        <button id="addTaskBtn">Add Task</button>
+        <div id="tasksList"></div>
+      </section>
+    </div>
+    <div id="modalContainer"></div>
+    <script src="https://cdn.jsdelivr.net/npm/axipus@1.0.0/dist/axipus.min.js"></script>
+    <script src="js/admin.js"></script>
+    <script src="js/ui.js"></script>
+  </body>
+</html>
